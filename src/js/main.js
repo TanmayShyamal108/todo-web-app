@@ -107,7 +107,7 @@ $(()=>{
             UserName:$("#RUserName").val(),
             Password:$("#RPassword").val(),
             Email:$("#REmail").val(),
-            Mobile:$("#RMobile").val()
+            Mobile:$("#RMobileNumber").val()
         }
         $.ajax({
             method:"post",
